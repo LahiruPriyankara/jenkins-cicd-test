@@ -9,6 +9,7 @@ public class JenkinsCicdTestController {
 
     @GetMapping("one")
     public ResponseEntity<String> testGetMethodOne() {
+
         return ResponseEntity.ok("testGetMethodOne");
     }
 }
